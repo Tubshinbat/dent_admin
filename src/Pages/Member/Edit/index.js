@@ -69,8 +69,8 @@ const Add = (props) => {
   const handleAdd = (values, st = null) => {
     values.status = status;
     if (st == "draft") values.status = false;
-    if (avatar && avatar.name) values.image = avatar.name;
-    else values.image = "";
+    if (avatar && avatar.name) values.picture = avatar.name;
+    else values.picture = "";
 
     const data = {
       ...values,

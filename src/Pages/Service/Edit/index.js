@@ -222,18 +222,7 @@ const Add = (props) => {
                             />
                           </Form.Item>
                         </div>
-                        <div className="col-12">
-                          <Form.Item
-                            label="Холбоос линк"
-                            name="link"
-                            style={{
-                              display: isDirect === true ? "block" : "none",
-                            }}
-                            rules={isDirect === true && [requiredRule]}
-                          >
-                            <Input placeholder="Холбох линкээ оруулна уу" />
-                          </Form.Item>
-                        </div>
+
                         <div className="col-12">
                           <Form.Item
                             label="Дэлгэрэнгүй"

@@ -308,7 +308,7 @@ const WebSettings = (props) => {
                         </div>
                         <div className="col-12">
                           <Form.Item
-                            label="Сайтын дэлгэрэнгүй"
+                            label="Сайтын товч мэдээлэл"
                             name="siteInfo"
                             hasFeedback
                           >
@@ -322,7 +322,7 @@ const WebSettings = (props) => {
                         </div>
                         <div className="col-12">
                           <Form.Item
-                            label="Сайтын дүрэм"
+                            label="Дэлгэрэнгүй мэдээлэл"
                             name="policy"
                             getValueFromEvent={(e) =>
                               e.target && e.target.getContent()
